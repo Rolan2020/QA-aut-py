@@ -31,7 +31,7 @@ LOGOUT_BUTTON = "//a[@class=' waves-effect' and @href='https://www.phptravels.ne
 
 # creamos funcion para ejecutar pytest
 # comando -> pytest --browser chromium --headed --slowmo 3000
-def test_phptravel(page):
+def test_phptravel_flow(page):
     # open site
     page.goto(URL)
     # enter email
